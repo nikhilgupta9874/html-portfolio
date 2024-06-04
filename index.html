@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8aba03dd0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span style="color: #ffd500;">N</span>ikhil <span style="color: #ffd500;">G</span>upta</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <!-- <li><a href="#">Contact</a></li> -->
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I am Nikhil Gupta</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="about-col-1">
+                        <img src="Nikhil Gupta.jpg" alt="">
+                    </div>
+                    <p class="about-p">Welcome to my corner of the web! I'm a passionate <span>Full Stack Developer</span> with over a year of
+                         hands-on experience in crafting dynamic and robust applications. Currently, I am working 
+                         as an <span> Associate Data Engineer</span> at <span>Shell</span>, where I apply my problem-solving skills to drive
+                          impactful projects. Previously, I sharpened my tech skills and gained invaluable experience
+                            during my internship at<span> Morgan Stanley</span>. I thrive on building scalable microservices and efficient APIs.
+                             Always eager to learn new technologies and adapt to changes quickly, I am committed to delivering seamless
+                              and engaging user experiences. Let's connect and create something amazing together!
+                    </p>
+                    <div class="tab-titles">
+                        <!-- <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> -->
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Java, Python, C++</li>
+                            <li><span>Backend</span><br>Spring Boot, REST API, Microservices, Spring MVC, Spring Security, Spring Data JPA</li>
+                            <li><span>Frontend</span><br>HTML, CSS, Javascript, jQuery</li>
+                            <li><span>Version Control</span><br>Git, Github</li>
+                            <li><span>Cloud</span><br>Azure Data Factory, Azure Databricks, Microsoft Power Platform</li>
+                            <li><span>Others</span><br>SQL Server, Linux/Unix</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>Aug 2023 - Current</span><br>Associate Data Engineer at Shell<br>Bangalore, Karnataka, India</li>
+                            <li><span>Jan 2023 - Jul 2023</span><br>Technology Analyst Intern at Morgan Stanley<br> Mumbai, Maharashtra, India</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>B.E. Computer Engineering<br>Thapar Institute of Engineering and Technology<br>Patiala, Punjab, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------skills--------------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <img width="480" height="480" src="https://img.icons8.com/color/480/java-coffee-cup-logo--v1.png" class="tech-img" alt="java-coffee-cup-logo--v1"/>
+                    <h2 style="text-indent: 20px;">Java</h2>
+                </div>
+                <div>
+                    <img width="480" height="480" src="https://img.icons8.com/color/480/spring-logo.png" class="tech-img" alt="spring-logo"/>
+                    <h2 style="text-indent: 20px;">Spring</h2>
+                </div>
+                <div>
+                    <img width="480" height="480" src="https://img.icons8.com/color/480/python--v1.png" class="tech-img" alt="python--v1"/>
+                    <h2 style="text-indent: 20px;">Python</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/api-settings.png" alt="api-settings"/>
+                    <h2>REST API</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/html-5--v1.png" alt="html-5--v1"/>
+                    <h2 style="text-indent: 20px;">HTML</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/css3.png" alt="css3"/>
+                    <h2 style="text-indent: 26px;">CSS</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/javascript--v1.png" alt="javascript--v1"/>
+                    <h2>Javascript</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/git.png" alt="git"/>
+                    <h2 style="text-indent: 30px;">Git</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/fluency/100/azure-1.png" alt="azure-1"/>
+                    <h2 style="text-indent: 20px;">Azure</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/fluency/100/microsoft-power-apps.png" alt="microsoft-power-apps"/>
+                    <h2>Powerapps</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/fluency/100/microsoft-power-automate-2020.png" alt="microsoft-power-automate-2020"/>
+                    <h2>Power<br>Automate</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/power-bi-2021.png" alt="power-bi-2021"/>
+                    <h2>Power BI</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/microsoft-sql-server.png" alt="microsoft-sql-server"/>
+                    <h2 style="text-align: center;">SQL Server</h2>
+                </div>
+                <div>
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/linux--v1.png" alt="linux--v1"/>
+                    <h2>Linux/Unix</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- -------------------------------------------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
